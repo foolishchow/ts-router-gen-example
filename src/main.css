@@ -1,0 +1,56 @@
+body,html{
+  width:100%;
+  height: 100%;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.wrap{
+  background:#eee;
+  width:100%;
+  height:100%;
+  display:flex;
+}
+.menu{
+  width: 300px;
+}
+.menu-item{
+  width: 100%;
+}
+.menu-item .menu-item{
+  padding-left: 4%;
+}
+.menu-item>span{
+  padding-left: 10px;
+  display: block;
+  line-height: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+.menu-item.active>span,
+.menu-item>span:hover{
+  background: cyan;
+}
+.main{
+  flex:1;
+  background: #fff;
+}
+.title{
+  background: linen;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 4px;
+  position: relative;
+  box-sizing: content-box;
+  display: inline-block;
+}
+
+.page > .title{
+  margin-left: 20px;
+}
+
+.page > .page{
+  margin-left: 20px;
+}

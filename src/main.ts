@@ -1,10 +1,17 @@
 import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
+import { AppKeel } from "./views/keel"
+import "./main.css"
+import { AppRoutes } from './router'
+import VueRouter from "vue-router"
 
 Vue.config.productionTip = false
 
+const router = new VueRouter({
+  routes: AppRoutes,
+  mode: "history"
+})
+
 new Vue({
   router,
-  render: h => h(App)
+  render: h => h(AppKeel)
 }).$mount('#app')

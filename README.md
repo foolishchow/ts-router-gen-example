@@ -1,5 +1,7 @@
 # ts-router-gen-example
 
+> example of [@foolishchow/vue-cli-plugin-ts-router-gen](https://www.npmjs.com/package/@foolishchow/vue-cli-plugin-ts-router-gen)
+
 ## Project setup
 ```
 yarn install
